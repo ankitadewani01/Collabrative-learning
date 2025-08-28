@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.87);
+    font-family: Arial, sans-serif;
+}
+input[type="text"], input[type="date"], input[type="time"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #133869dd;
+    color: white;
+}
+.notification {
+    display: none;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+}
+.panel-op p{
+    color:white;
+    display: inline;
+    margin-left: 200px;
+}
+.panel-all{
+    margin-right: 15px;
+    display: flex;
+    color:white;
+}
+.hero-section{
+    background-image: url("doctor.jpg") ;
+    height: 500px;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    color: black;
+    height:40px ;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-msg a{
+    color: #007185;
+
+}
+.reminder{
+    border: 2px solid black;
+    width: 80%;
+    margin: 10px;
+    background-color:rgba(219, 202, 172, 0.813);
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+
+}
+.delivery{
+    background-image: url("deliver.png");
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 20px;
+    background-size: 100% 100%;
+    font-size: small;
+    color: white;
+}
+.main{
+    display: flex;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.ques{
+    font-size: 25px;
+}
+.op{
+    font-size: 30px;
+    margin-left: 75px;
+}
+.button{
+    height: 50px;
+    width: 140px;
+    font-size: larger;
+    background-color: rgb(74, 215, 220);
+    margin: 10px;
+    margin-left: 40px;
+    border: solid black;
+    border-radius: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#donut-chart-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+#donut-chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.percentage-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+}
+h2{
+text-align: center;
+padding: 30px;
+}
+.ques{
+font-size: 20px;
+margin-top: 0px;
+}
+.op{
+font-size: 20px;
+margin-left: 75px;
+}
+.button{
+height: 40px;
+width: 180px;
+font-size: larger;
+background-color: #133869dd;
+margin: 10px;
+margin-left: 40px;
+border: solid black;
+border-radius: 10px;
+color: white;
+}
+.btn{
+height: 275px;
+width: 270px;
+border: 1px solid black;
+border-radius: 10px;
+margin:10px;
+background-image: url("test.webp");
+background-size: cover;
+margin-top: px;
+}
+.btn h3{
+padding-top: 250px;
+}
+
+.popup{
+height: 450px;
+width: 80%;
+margin: 20px;
+border: 2px solid black ;
+margin-left: 100px;
+border-radius: 10px;
+background-color: rgba(239, 234, 226, 0.87);
+        top:100px;
+        position: absolute;
+        padding: 0 30px 30px;
+        transition: transform 0.4s, top 0.4s;
+        display: none;
+        z-index: 1;
+        overflow: auto;
+        margin-right: 20PX;
+    }
+    .popup::-webkit-scrollbar{
+display:none;
+}
+.btnn{
+height: 40px;
+width: 180px;
+font-size: larger;
+background-color: #133869dd;
+margin: 10px;
+margin-left: 40px;
+border: solid black;
+border-radius: 10px;
+color: white;
+} 
+.container {
+    width: 600px;
+    margin: 0 auto;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    border: 2px solid black ;
+    border-radius: 10px;
+    background-color: rgba(239, 234, 226, 0.87);
+    top:100px;
+    position: absolute;
+        padding: 0 30px 30px;
+        transition: transform 0.4s, top 0.4s;
+        display: none;
+        z-index: 1;
+        overflow: auto;
+        margin-right: 20PX;
+    }
+.container::-webkit-scrollbar{
+display:none;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 0;
+    box-sizing: border-box;
+    background-color:#222f3d ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butn{
+    height: 200px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: url("bmi.png");
+    background-size: 100% 100%;
+    margin-left: 10px;
+    top: 10px;
+
+} 
+.buttn h1{
+    font-size: medium;
+    color: #000;
+    padding-top: 150px;
+} 
+.second{
+    display: flex;
+}
+.buttn{
+    background-image: url("detail.jpg");
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 20px;
+    background-size: 100% 100%;
+    font-size: small;
+    color: white;
+    margin-top: 10px;
+}
+.navbar{
+    height: 40px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading-nav{
+
+    text-align: center;
+    padding-top: 1%;
+}
+.nav-barr{
+    height: 58px;
+    width: 100%;
+    background-color:#1100ffdd;
+    display: inline-flex;
+    color: rgba(239, 234, 226, 0.87);
+    justify-content: space-between;
+}
+.home{
+    padding: 20px;
+    text-align: center;
+    padding-left: 100px;
+}
+.home i{
+    font-size: 25px;
+
+}
+.home p{
+    font-size: 20px;
+}
+.doctor-consultation{
+    padding: 20px;
+    text-align: center;
+    padding-left: 100px;
+}
+.doctor-consultation i{
+    font-size: 25px;
+
+}
+.doctor-consultation p{
+    font-size: 20px;
+}
+.awareness{
+    padding: 20px;
+    text-align: center;
+    padding-left: 100px;
+}
+.awareness i{
+    font-size: 25px;
+
+}
+.awareness p{
+    font-size: 20px;
+}
+
+.accounts{
+    padding: 20px;
+    text-align: center;
+    padding-right: 100px;
+}
+.accounts i{
+    font-size: 25px;
+}
+.accounts p{
+    font-size: 20px;
+}
+.nav-bar{
+    background-color: #14282b;
+    color: antiquewhite;
+}
+body, header, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width:auto; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.textinfo {
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+.imagequery{
+    margin: 10;
+    padding: 10;
+    border: 10;
+  }
+  
+.gallery {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.imagquery img {
+    width: 150%;
+    height: 100px;
+  }
+.containerss {
+    background-image: url('bgg.jpg');
+    display: flex;
+    width: 100%;
+}
+
+.imagequery {
+    height: 200px;
+    width: 40%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    margin: 10px; /* Add units (e.g., px) to margin, padding, and border */
+    padding: 10px;
+    border: 10px solid transparent; /* Add a border style */
+}
+.textinfo {
+    width: 60%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    margin: 10px; /* Add units (e.g., px) to margin, padding, and border */
+    padding: 10px;
+    border: 10px solid transparent; /* Add a border style */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+header,footer,.userbody{
+    width: 100%;
+}
+.userbody{
+    flex-grow: 1;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-contents {
+    max-width:auto; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.footer-contents p {
+    margin: 5px 0;
+}
